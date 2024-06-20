@@ -1,0 +1,119 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.logo {
+    width: 75px;
+    height: 75px;
+}
+
+/* Estilos para la barra lateral */
+.sidebar-lat {
+    width: 250px;
+    background-color: #BFA3B9;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Estilos para la cabecera del sidebar */
+.sidebar-lat .logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.sidebar-lat .nombre {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.sidebar-lat hr {
+    border-color: #DABED2;
+}
+
+.sidebar-lat h2 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+/* Estilos para la lista */
+.sidebar-lat .list-none {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-lat .p-ripple {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.sidebar-lat .p-ripple:hover {
+    background-color: #DABED2;
+}
+
+.sidebar-lat .font-medium {
+    font-weight: 500;
+}
+
+.sidebar-lat .pi {
+    margin-right: 10px;
+}
+
+.sidebar-lat .inline-flex {
+    background-color: #82A1B4;
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: #fff;
+    margin-left: auto;
+}
+
+/* Estilos para los elementos anidados */
+.sidebar-lat .slidedown-enter-active,
+.sidebar-lat .slideup-leave-active {
+    transition: all 0.3s ease;
+}
+
+.sidebar-lat .hidden {
+    display: none;
+}
+
+.sidebar-lat .slidedown-enter {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.sidebar-lat .slidedown-enter-active {
+    max-height: 1000px;
+}
+
+.sidebar-lat .slideup-leave-active {
+    max-height: 0;
+}
+
+/* Iconos desplegables */
+.sidebar-lat .pi-chevron-down {
+    margin-left: auto;
+}
+
+/* Ajustar estilo del botón del sidebar */
+.sidebar-lat-button {
+    background-color: #82A1B4;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.sidebar-lat-button:hover {
+    background-color: #9fbbcc;
+}
