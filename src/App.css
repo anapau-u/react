@@ -2,7 +2,7 @@
 
 .App {
   text-align: center;
-  background: url('/Users/anavilla/Desktop/USB/react/src/img/wallpaper.webp');
+  background: url('/Users/anavilla/Desktop/USB/react/src/img/wallpaper.webp') no-repeat center center fixed;
 }
 
 .App-logo {

@@ -1,0 +1,12 @@
+.graficos{
+    padding: 1rem;;
+}
+.titulo{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.tarjetas{
+    padding-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}

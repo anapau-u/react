@@ -7,20 +7,22 @@ import Dashboard from './pages/Dashboard/Dashboard';
 import Clientes from './pages/Clientes/Clientes';
 import './App.css';
 
-console.log('Dashboard importado:', Dashboard); // <--- Agrega esta línea
-
 function App() {
   const { isAuthenticated } = useAuth0();
+  console.log('Is authenticated', isAuthenticated); // <--- Se autentifica?
+  console.log('Dashboard importado:', Dashboard); // <--- Agrega esta línea
+
   return (
     <div className="App">
       {isAuthenticated ? (
-        <Topbar >
-        <Routes>
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/cliente" element={<Clientes />} />
-          {/* Agrega más rutas aquí */}
-        </Routes>
-        </Topbar>
+        <>
+          <Topbar />
+          <Routes>
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/cliente" element={<Clientes />} />
+            {/* Agrega más rutas aquí */}
+          </Routes>
+        </>
       ) : (
         <LoginButton />
       )}
