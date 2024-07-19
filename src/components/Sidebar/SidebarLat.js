@@ -20,7 +20,7 @@ export default function SidebarLat() {
             <Sidebar visible={visible} onHide={() => setVisible(false)} className="sidebar-lat">
                 <div className='flex flex-wrap align-items-center justify-content-between flex-shrink-0'>
                     <img src='https://raw.githubusercontent.com/anapau-u/alivstudio/main/logo-sidebar.webp' alt="Logo de CRM" className="logo" />
-                    <h2 className='nombre'>CRM</h2>
+                    {/* <h2 className='nombre'>CRM</h2> */}
                 </div>
                 <hr className="mb-3 mx-3 border-top-1 border-none surface-border" />
                 {/* <h2>Sidebar</h2> */}

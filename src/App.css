@@ -2,7 +2,11 @@
 
 .App {
   text-align: center;
-  background: url('/Users/anavilla/Desktop/USB/react/src/img/wallpaper.webp') no-repeat center center fixed;
+  position: relative; /* add this */
+  min-height: 1000px;
+  background-color: #282c34;
+  background: url('/Users/anavilla/Desktop/USB/react/src/img/wallpaper.webp') no-repeat center center/cover;
+  opacity: 0.8; /* adjust the opacity value to your liking */
 }
 
 .App-logo {
@@ -47,4 +51,12 @@
   align-self: center;
   justify-content: center;
   font-size: 3rem;
+}
+
+h2{
+  font-size: 2rem !important;
+  font-weight: bold !important;
+  letter-spacing: 0.5rem;
+  color: #fff;
+  text-align: left;
 }

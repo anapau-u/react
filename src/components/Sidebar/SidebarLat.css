@@ -13,7 +13,7 @@ body {
 /* Estilos para la barra lateral */
 .sidebar-lat {
     width: 250px;
-    background-color: #BFA3B9;
+    background-color: #262836;
     color: #fff;
     padding: 10px;
 }
@@ -56,7 +56,7 @@ body {
 }
 
 .sidebar-lat .p-ripple:hover {
-    background-color: #DABED2;
+    background-color: #3a3c4b;
 }
 
 .sidebar-lat .font-medium {

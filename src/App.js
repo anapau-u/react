@@ -5,6 +5,7 @@ import { Route, Routes} from 'react-router-dom';
 import Topbar from './components/Topbar/Topbar';
 import Dashboard from './pages/Dashboard/Dashboard';
 import Clientes from './pages/Clientes/Clientes';
+import '@tremor/react/dist/esm/tremor.css';
 import './App.css';
 
 function App() {

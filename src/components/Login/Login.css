@@ -4,11 +4,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('/Users/anavilla/Desktop/USB/react/src/img/wallpaper.webp') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 .dis {
